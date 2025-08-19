@@ -15,6 +15,7 @@
    background-color:rgb(247, 169, 182);
    padding: 10px;
    z-index: 20;
+   opacity: 0.9;
 }
 .header-icon1{
    float: left;
@@ -190,8 +191,8 @@
    float: left;
    text-align: center;
    padding: 20px 0;
-    text-transform: capitalize;
-    position: relative;
+   text-transform: capitalize;
+   position: relative;
 }
 .welcome-div-center{
    margin: 0 8%;
@@ -202,7 +203,7 @@
    padding-bottom: 20px;
 }
 .welcome-pragh{
-   padding: 20px 0;
+   padding-bottom: 20px;
    color: rgb(128, 125, 125);
    margin-top: 30px;
 }
@@ -212,10 +213,7 @@
    color: rgb(253, 104, 129);
 }
 .welcome-div-title{
-  position: absolute;
-  text-align: center;
-  z-index: 2;
-  left: 20%;
+   
   color: #313131;
 }
 .welcome-div:hover .welcome-div-title{
@@ -239,7 +237,7 @@
    left: 0;
    background-color:rgba(253, 104, 129, 0.425);
    opacity: 0;
-   z-index: 1;
+   z-index: -1;
    border-radius: 8px;
 }
 .welcome-div:hover::after{
@@ -357,7 +355,7 @@
 }
 .offer-div{
    width: 30%;
-   height: 30%;
+   height: 190px;
    border: 1px solid rgb(253, 104, 129);
    border-radius: 8px;
    float: left;
@@ -388,7 +386,7 @@
 }
 .offer-pragh{
    padding: 10px 0;
-   color: rgb(105, 102, 102);
+   color: rgb(150, 148, 148);
 }
 .offer-div::after{
    position: absolute;
